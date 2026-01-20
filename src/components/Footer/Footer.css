@@ -1,0 +1,61 @@
+/* LINKS SECTION */
+.footer-links {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.footer-links h6 {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #ff5a1f;
+}
+
+/* OFFICE SECTION */
+.office-wrapper {
+  background: #ff4f00;
+  color: #fff;
+  border-radius: 10px;
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 95%;
+}
+
+.office-header {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.office-grid h6 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.office-grid p {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  background: #e64500;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  font-size: 13px;
+}

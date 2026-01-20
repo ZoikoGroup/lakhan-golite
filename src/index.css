@@ -1,0 +1,34 @@
+/* Custom CSS for GoLite Styles */
+.main-nav-bg {
+  background: linear-gradient(90deg, #FF4B2B 0%, #FF416C 100%) !important;
+}
+
+.hero-bg {
+  background: #FF0055;
+  height: 350px;
+  margin-top: 0px; /* Offset for fixed navbar */
+}
+
+.search-overlap {
+  margin-top: -30px; /* Pulls search bar onto the hero */
+  position: relative;
+  z-index: 5;
+}
+
+.nav-link-top {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 0.85rem;
+}
+
+.no-shadow:focus {
+  box-shadow: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .hero-bg { margin-top: 0px; height: 250px; }
+}

@@ -1,0 +1,135 @@
+/* 
+.section {
+    max-width: 90%;
+    min-height: 250px;
+    border: 2px solid #79b74d;
+    border-radius: 20px;
+    background-color: #e8f2e1;
+    margin: 10px auto;
+    display: flex;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-sec{
+    width: 50%;
+    gap: 20px;
+    margin-right: 10px;
+}
+
+.right-sec{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-sec input , button{
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.inpt{
+    background-color: whitesmoke;
+    color: grey;
+    padding: 20px;
+
+}
+
+.s-btn{
+    background-color:#79b74d ;
+    color: white;
+    text-align: center;
+} */
+
+/* OUTER WRAPPER */
+.subbanner-wrapper {
+  width: 100%;
+  margin: 40px 0;
+}
+
+/* MAIN SECTION */
+.subbanner {
+  /* max-width: 95%; */
+  min-height: 250px;
+  margin: auto;
+  padding: 24px 32px;
+  border: 2px solid #79b74d;
+  border-radius: 20px;
+  background-color: #e8f2e1;
+}
+
+/* LEFT SIDE */
+.subbanner-left h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.subbanner-left p {
+  color: #555;
+}
+
+/* RIGHT SIDE */
+.subbanner-right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* INPUT + BUTTON ROW */
+.form-row {
+  display: flex;
+}
+
+/* INPUT */
+.sub-input {
+  flex: 1;
+  height: 42px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+}
+
+/* BUTTON */
+.sub-btn {
+  height: 42px;
+  padding: 0 24px;
+  border: none;
+  background-color: #79b74d;
+  color: white;
+  font-weight: 600;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+/* PRIVACY TEXT */
+.privacy-text {
+  font-size: 13px;
+  color: #444;
+}
+
+/* ========================= */
+/* MOBILE RESPONSIVENESS */
+/* ========================= */
+@media (max-width: 768px) {
+
+  .subbanner {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sub-input,
+  .sub-btn {
+    width: 100%;
+    border-radius: 20px;
+  }
+}

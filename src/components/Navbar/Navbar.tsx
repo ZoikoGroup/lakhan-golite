@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 const Navigation: React.FC = () => {
   
-
   return (
     <>
       {/* 1. Top Utility Bar (White) - Standard Flow */}
